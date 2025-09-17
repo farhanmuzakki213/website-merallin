@@ -9,9 +9,10 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
             <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-baju">Baju</li>
-                <li data-filter=".filter-produk">Produk</li>
+                <li data-filter="*" class="filter-active">Semua</li>
+                <li data-filter=".filter-translog">Trasnlog</li>
+                <li data-filter=".filter-baju">Apparel</li>
+                <li data-filter=".filter-produk">Merchandise</li>
                 <li data-filter=".filter-branding">Services</li>
             </ul>
             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -49,6 +50,9 @@
                         ['category' => 'baju', 'image' => 'masonry-portfolio-25-min.jpg', 'title' => 'Polo'],
                         ['category' => 'baju', 'image' => 'masonry-portfolio-26-min.jpg', 'title' => 'Seragam Safety'],
                         ['category' => 'baju', 'image' => 'masonry-portfolio-27-min.jpg', 'title' => 'T-Shirt'],
+                        ['category' => 'translog', 'image' => 'masonry-portfolio-28-min.jpg', 'title' => 'Ekspedisi Logistik'],
+                        ['category' => 'translog', 'image' => 'masonry-portfolio-29-min.jpg', 'title' => 'Ekspedisi Logistik'],
+                        ['category' => 'translog', 'image' => 'masonry-portfolio-30-min.jpg', 'title' => 'Ekspedisi Logistik'],
                     ];
                 @endphp
 

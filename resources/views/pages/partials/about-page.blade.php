@@ -5,7 +5,7 @@
         <div class="row position-relative">
 
             <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img
-                    src="{{ asset('assets/img/about.png') }}"></div>
+                    src="{{ asset('assets/img/about3.png') }}"></div>
 
             <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="mt-3 mb-3 fw-bold">TENTANG KAMI</h2>
@@ -17,16 +17,17 @@
                     <p>PT. Merallin Sukses Abadi adalah perusahaan swasta nasional yang bergerak di berbagai sektor
                         bisnis strategis, termasuk:</p>
                     <ul>
-                        <li><i class="bi bi-check-circle"></i> <span>General Supplier</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Konveksi & Apparel Custom</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Advertising & Percetakan</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Transportasi & Logistik (Translog)</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Merchandise Custom</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Apparel Custom</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Dan Layanan Lainnya</span></li>
+                        {{-- <li><i class="bi bi-check-circle"></i> <span>General Supplier</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Advertising & Percetakan</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Epoxy & Lantai Coating</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Desain Interior</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Transportasi & Logistik (Translog)</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Tour & Gathering Organizer</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Labor Supply</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Catering</span></li>
+                        <li><i class="bi bi-check-circle"></i> <span>Catering</span></li> --}}
                     </ul>
                     <p>Dengan keahlian teknis dan komitmen terhadap kualitas, kami memastikan setiap proyek dirancang
                         dan dieksekusi secara optimal, mulai dari perencanaan, pelaksanaan, hingga hasil akhir yang

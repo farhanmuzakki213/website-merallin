@@ -11,6 +11,12 @@
             @php
                 $services = [
                     [
+                        'icon' => 'bi-truck',
+                        'color' => '#11dbcf;',
+                        'title' => 'Transportasi & Logistik (Translog)',
+                        'slug' => 'translog',
+                    ],
+                    [
                         'icon' => 'bi-box-seam',
                         'color' => '#ffbb2c;',
                         'title' => 'General Supplier',
@@ -45,12 +51,6 @@
                         'color' => '#ffa76e;',
                         'title' => 'Desain Interior',
                         'slug' => 'interior',
-                    ],
-                    [
-                        'icon' => 'bi-truck',
-                        'color' => '#11dbcf;',
-                        'title' => 'Transportasi & Logistik (Translog)',
-                        'slug' => 'translog',
                     ],
                     [
                         'icon' => 'bi-calendar-event',
