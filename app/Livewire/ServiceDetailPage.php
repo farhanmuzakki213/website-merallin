@@ -18,7 +18,7 @@ class ServiceDetailPage extends Component
             'general-supplier' => [
                 'title' => 'General Supplier',
                 'image' => 'assets/img/general-supplier.png',
-                'description' => 'Ini adalah proses kegiatan untuk pemenuhan atau penyediaan kebutuhan dan pasokan barang berdasarkan kontrak atau pembelian langsung untuk memenuhi kebutuhan bisnis, dengan tujuan untuk memperoleh barang dengan harga yang dapat dipertanggungjawabkan, jumlah dan kualitas yang sesuai, serta ketersediaannya yang tepat waktu sesuai dengan kebutuhan klien. Pengadaan barang yang kami tangani antara lain: APD keselamatan, barang dagangan, kantong laundry, penyedia perlengkapan rumah tangga, kantor, restoran, hotel, dan lainnya.',
+                'description' => 'Kami menyediakan layanan general supplier terintegrasi yang dirancang untuk memenuhi seluruh kebutuhan logistik dan pengadaan perusahaan Anda. Mulai dari identifikasi barang, negosiasi harga, hingga pengiriman yang tepat waktu, kami memastikan setiap proses dijalankan dengan profesionalisme tinggi. Kami berkomitmen untuk menyediakan pasokan dengan harga terbaik, kualitas superior, dan jadwal pengiriman yang akurat untuk mendukung kesuksesan jangka panjang bisnis Anda.',
                 'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang Service General Supplier. Mohon informasinya, terima kasih!',
                 'sub_sections' => []
             ],
@@ -84,28 +84,11 @@ class ServiceDetailPage extends Component
                     ]
                 ]
             ],
-            'interior' => [
-                'title' => 'Desain Interior',
-                'image' => 'assets/img/interior.png',
-                'description' => 'MERALLIN INTERIOR hadir untuk mewujudkan desain ruangan yang estetis, fungsional, dan berkarakter. Mengusung berbagai konsep desain seperti minimalis modern, industrial elegan, hingga gaya skandinavia yang hangat, kami mampu memberikan nuansa unik yang sesuai dengan kebutuhan setiap ruangan. Kami melayani kebutuhan desain untuk hunian, kantor, kafe, hingga fasilitas komersial lainnya.',
-                'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang Service Desain Interior. Mohon informasinya, terima kasih!',
-                'sub_sections' => [
-                    'title' => 'Desain Interior',
-                    'subtitle' => 'Pilihan terbaik untuk menciptakan ruang yang indah, fungsional, dan berkualitas tinggi.',
-                    'items' => [
-                        ['image' => 'assets/img/interior/interior1.png', 'title' => 'MODERN MINIMALIST', 'points' => ['Suasana simpel dan elegan dengan palet warna netral.', 'Ideal buat ruang keluarga yang cozy.']],
-                        ['image' => 'assets/img/interior/interior2-cover.png', 'title' => 'SPORT COURT LOUNGE', 'points' => ['Konsep interior modern dengan nuansa sport lounge.', 'Cocok buat ruang santai dengan sentuhan energik.']],
-                        ['image' => 'assets/img/interior/interior3.png', 'title' => 'INDUSTRIAL CHIC', 'points' => ['Gaya industrial yang keren dengan elemen beton ekspos.', 'Pas banget buat kantor kreatif atau studio seni.']],
-                        ['image' => 'assets/img/interior/interior4.png', 'title' => 'SCANDINAVIAN HOME', 'points' => ['Mengutamakan kenyamanan dan estetika natural.', 'Cocok buat ruang tamu yang hangat dan welcoming.']],
-                        ['image' => 'assets/img/interior/interior5.png', 'title' => 'TROPICAL URBAN', 'points' => ['Nuansa tropis yang fresh dengan elemen hijau.', 'Solusi interior yang bikin ruangan adem dan relaks.']],
-                        ['image' => 'assets/img/interior/interior6-cover.png', 'title' => 'FUTURISTIC SMART', 'points' => ['Konsep futuristik yang clean dengan pencahayaan LED.', 'Cocok untuk ruangan modern yang mengedepankan teknologi.']],
-                    ]
-                ]
-            ],
+            
             'translog' => [
                 'title' => 'Transportasi & Logistik',
-                'image' => 'assets/img/translog.png',
-                'description' => 'MERALLIN TRANSLOG AND RENTAL SERVICE: Solusi Transportasi Terbaik untuk Kebutuhan Anda. Layanan kami mencakup berbagai opsi, mulai dari sewa jangka panjang, layanan untuk ekspatriat, hingga logistik dan sewa harian. Dengan berbagai pilihan kendaraan, mulai dari Family Car, City Car, Premium Car, hingga Box Truck dan Tour Bus, kami menawarkan fleksibilitas sewa harian, mingguan, bulanan, hingga tahunan.',
+                'image' => 'assets/img/translog.jpg',
+                'description' => 'Kami menyediakan layanan transportasi dan logistik yang fleksibel untuk semua kebutuhan Anda. Dengan armada lengkap—mulai dari Family Car, Premium Car, hingga Box Truck dan Tour Bus—kami melayani sewa harian, mingguan, bulanan, bahkan tahunan. Layanan kami juga mencakup kebutuhan khusus seperti ekspatriat dan proyek logistik berskala besar. Apapun kebutuhan Anda, kami memiliki solusi transportasi yang tepat.',
                 'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang Service Transportasi & Logistik. Mohon informasinya, terima kasih!',
                 'sub_sections' => [
                     'title' => 'Transportasi & Logistik',
@@ -147,22 +130,6 @@ class ServiceDetailPage extends Component
                         ['image' => 'assets/img/labor/labor-2.png', 'title' => 'FLEKSIBILITAS WAKTU & DURASI', 'points' => ['Mulai dari kebutuhan jangka pendek hingga kontrak panjang, kami siap membantu.']],
                         ['image' => 'assets/img/labor/labor-3.png', 'title' => 'DUKUNGAN REKRUTMEN PROFESIONAL', 'points' => ['Tim kami memastikan proses seleksi dan rekrutmen berjalan efisien.']],
                         ['image' => 'assets/img/labor/labor-4.png', 'title' => 'EFISIENSI BIAYA & KINERJA OPTIMAL', 'points' => ['Anda dapat fokus pada bisnis inti tanpa khawatir soal kebutuhan tenaga kerja.']],
-                    ]
-                ]
-            ],
-            'catering' => [
-                'title' => 'Catering',
-                'image' => 'assets/img/catering.png',
-                'description' => 'MERALLIN SUKSES ABADI: Solusi Catering Terbaik untuk Acara Spesial Anda. Kami menghadirkan hidangan berkualitas dengan cita rasa istimewa. Layanan kami mencakup berbagai kebutuhan catering, mulai dari pernikahan, acara keluarga, hingga corporate gathering dengan pilihan menu tradisional dan internasional yang lengkap. Dengan tim profesional, kami memastikan setiap acara berjalan lancar.',
-                'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang Service Catering. Mohon informasinya, terima kasih!',
-                'sub_sections' => [
-                    'title' => 'Catering',
-                    'subtitle' => 'Mengapa Memilih Merallin Catering?',
-                    'items' => [
-                        ['image' => 'assets/img/catering/catering-1.png', 'title' => 'HARGA TERBAIK', 'points' => ['Pilihan paket dengan harga terjangkau tanpa mengorbankan kualitas.']],
-                        ['image' => 'assets/img/catering/catering-2.png', 'title' => 'MENU LEZAT DAN BERAGAM', 'points' => ['Dari hidangan tradisional hingga menu internasional.']],
-                        ['image' => 'assets/img/catering/catering-3.png', 'title' => 'DUKUNGAN TIM PROFESIONAL', 'points' => ['Tim kami memastikan makanan disajikan dengan sempurna dan elegan.']],
-                        ['image' => 'assets/img/catering/catering-4.png', 'title' => 'LAYANAN ANTAR & SETUP ACARA', 'points' => ['Nikmati layanan antar makanan langsung ke lokasi acara Anda.']],
                     ]
                 ]
             ],

@@ -53,6 +53,8 @@
                         ['category' => 'translog', 'image' => 'masonry-portfolio-28-min.jpg', 'title' => 'Ekspedisi Logistik'],
                         ['category' => 'translog', 'image' => 'masonry-portfolio-29-min.jpg', 'title' => 'Ekspedisi Logistik'],
                         ['category' => 'translog', 'image' => 'masonry-portfolio-30-min.jpg', 'title' => 'Ekspedisi Logistik'],
+                        ['category' => 'translog', 'image' => 'masonry-portfolio-32-min.jpg', 'title' => 'Ekspedisi Logistik'],
+                        ['category' => 'translog', 'image' => 'masonry-portfolio-31-min.jpg', 'title' => 'Ekspedisi Logistik'],
                     ];
                 @endphp
 

@@ -837,6 +837,7 @@ section,
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    filter: brightness(70%);
 }
 
 .hero .carousel-item {
@@ -851,14 +852,14 @@ section,
 }
 
 .hero .container {
-    background: color-mix(in srgb, var(--surface-color), transparent 40%);
+    /* background: color-mix(in srgb, var(--surface-color), transparent 40%); */
     position: relative;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 50px;
-    border-top: 4px solid var(--accent-color);
-    z-index: 3;
+    /* border-top: 4px solid var(--accent-color); */
+    z-index: 99;
 }
 
 @media (max-width: 1200px) {
@@ -869,9 +870,16 @@ section,
 }
 
 .hero h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 36px;
     font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 2px #ffffff, 0 0 4px #ffffff;
+}
+
+.hero p {
+    color: #ffffff;
+    text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -890,7 +898,8 @@ section,
     margin: 10px;
     border-radius: 4px;
     color: var(--contrast-color);
-    border: 2px solid var(--accent-color);
+    border: 5px solid var(--accent-color);
+    text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
 }
 
 .hero .btn-get-started:hover {

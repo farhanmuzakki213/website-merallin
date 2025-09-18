@@ -29,28 +29,22 @@
                         'slug' => 'konveksi-apparel',
                     ],
                     [
-                        'icon' => 'bi-megaphone',
-                        'color' => '#e80368;',
-                        'title' => 'Advertising & Percetakan',
-                        'slug' => 'advertising-percetakan',
-                    ],
-                    [
                         'icon' => 'bi-bag-check',
                         'color' => '#e361ff;',
                         'title' => 'Merchandise Custom',
                         'slug' => 'merchandise',
                     ],
                     [
+                        'icon' => 'bi-megaphone',
+                        'color' => '#e80368;',
+                        'title' => 'Advertising & Percetakan',
+                        'slug' => 'advertising-percetakan',
+                    ],
+                    [
                         'icon' => 'bi-brush',
                         'color' => '#47aeff;',
                         'title' => 'Epoxy & Lantai Coating',
                         'slug' => 'epoxy',
-                    ],
-                    [
-                        'icon' => 'bi-layout-text-window-reverse',
-                        'color' => '#ffa76e;',
-                        'title' => 'Desain Interior',
-                        'slug' => 'interior',
                     ],
                     [
                         'icon' => 'bi-calendar-event',
@@ -63,12 +57,6 @@
                         'color' => '#8A2BE2;',
                         'title' => 'Labor Supply',
                         'slug' => 'labor-supply',
-                    ],
-                    [
-                        'icon' => 'bi-egg-fried',
-                        'color' => '#FFB800;',
-                        'title' => 'Catering',
-                        'slug' => 'catering',
                     ],
                 ];
                 $delay = 100;
