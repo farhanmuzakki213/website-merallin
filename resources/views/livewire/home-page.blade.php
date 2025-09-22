@@ -1,17 +1,44 @@
 <div>
     @include('pages.partials.hero-section')
-    @include('pages.partials.about-page')
-    @include('pages.partials.services-page')
-    <section id="portfolio" class="portfolio section">
-        <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
-            <h2>Portofolio</h2>
-            <h4>Jelajahi portofolio kami untuk berbagai solusi yang memenuhi kebutuhan Anda.</h4>
-        </div>
+    
+    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('about'); loaded = true; }">
+        @if ($aboutLoaded)
+            @include('pages.partials.about-page')
+        @else
+            {{-- Placeholder untuk menjaga tinggi halaman --}}
+            <div style="height: 500px;"></div>
+        @endif
+    </div>
 
-        <div class="container">
-            <livewire:portfolio-section />
-        </div>
+    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('services'); loaded = true; }">
+        @if ($servicesLoaded)
+            @include('pages.partials.services-page')
+        @else
+            <div style="height: 500px;"></div>
+        @endif
+    </div>
 
-    </section>
-    @include('pages.partials.clients-page')
+    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('portfolio'); loaded = true; }">
+        @if ($portfolioLoaded)
+            <section id="portfolio" class="portfolio section">
+                <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
+                    <h2>Portofolio</h2>
+                    <h4>Jelajahi portofolio kami untuk berbagai solusi yang memenuhi kebutuhan Anda.</h4>
+                </div>
+                <div class="container">
+                    <livewire:portfolio-section />
+                </div>
+            </section>
+        @else
+            <div style="height: 500px;"></div>
+        @endif
+    </div>
+
+    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('clients'); loaded = true; }">
+        @if ($clientsLoaded)
+            @include('pages.partials.clients-page')
+        @else
+            <div style="height: 500px;"></div>
+        @endif
+    </div>
 </div>

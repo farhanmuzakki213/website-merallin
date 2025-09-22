@@ -8,6 +8,19 @@ use Livewire\Attributes\Title;
 #[Title('Merallin')]
 class HomePage extends Component
 {
+    public bool $aboutLoaded = false;
+    public bool $servicesLoaded = false;
+    public bool $portfolioLoaded = false;
+    public bool $clientsLoaded = false;
+
+     public function loadSection($section)
+    {
+        if ($section === 'about') $this->aboutLoaded = true;
+        if ($section === 'services') $this->servicesLoaded = true;
+        if ($section === 'portfolio') $this->portfolioLoaded = true;
+        if ($section === 'clients') $this->clientsLoaded = true;
+    }
+    
     public function render()
     {
         return view('livewire.home-page');

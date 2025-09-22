@@ -2,7 +2,7 @@
 
     <ul class="portfolio-filters isotope-filters">
         <li wire:click="filter('*')" class="{{ $activeFilter === '*' ? 'filter-active' : '' }}" style="cursor: pointer;">Semua</li>
-        <li wire:click="filter('translog')" class="{{ $activeFilter === 'translog' ? 'filter-active' : '' }}" style="cursor: pointer;">Trasnlog</li>
+        <li wire:click="filter('translog')" class="{{ $activeFilter === 'translog' ? 'filter-active' : '' }}" style="cursor: pointer;">Translog</li>
         <li wire:click="filter('baju')" class="{{ $activeFilter === 'baju' ? 'filter-active' : '' }}" style="cursor: pointer;">Apparel</li>
         <li wire:click="filter('produk')" class="{{ $activeFilter === 'produk' ? 'filter-active' : '' }}" style="cursor: pointer;">Merchandise</li>
         <li wire:click="filter('branding')" class="{{ $activeFilter === 'branding' ? 'filter-active' : '' }}" style="cursor: pointer;">Services</li>
