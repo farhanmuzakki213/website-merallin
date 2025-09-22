@@ -21,7 +21,22 @@
     @livewireStyles
 </head>
 
-<body class="index-page">
+<body class="index-page" x-data="{
+    async navigateTo(sectionId) {
+        if (window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id')).name === 'home-page') {
+
+            await window.Livewire.dispatch('loadSection', [sectionId]);
+
+            await new Promise(resolve => setTimeout(resolve, 100));
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        } else {
+            window.location.href = `/#${sectionId}`;
+        }
+    }
+}">
 
     @include('layouts.partials.header')
 

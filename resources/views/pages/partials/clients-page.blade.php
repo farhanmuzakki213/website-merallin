@@ -1,4 +1,4 @@
-<section id="clients" class="clients section">
+<section class="clients section">
 
     <div class="container section-title" data-aos="fade-up">
         <h2>Clients</h2>

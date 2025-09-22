@@ -1,4 +1,4 @@
-<section id="features" class="features section">
+<section class="features section">
 
     <div class="container section-title" data-aos="fade-up">
         <h2>Layanan Kami</h2>

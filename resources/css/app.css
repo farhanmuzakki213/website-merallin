@@ -853,12 +853,14 @@ section,
 
 .hero .container {
     /* background: color-mix(in srgb, var(--surface-color), transparent 40%); */
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
-    margin-bottom: 50px;
-    /* border-top: 4px solid var(--accent-color); */
+    margin-bottom: 100px;
+    border-top: 4px solid var(--accent-color);
+    border-radius: 8px;
     z-index: 99;
 }
 

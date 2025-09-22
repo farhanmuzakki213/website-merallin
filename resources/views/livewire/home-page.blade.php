@@ -3,7 +3,7 @@
         @include('pages.partials.hero-section')
     </div>
 
-    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('about'); loaded = true; }">
+    <div id="about" x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('about'); loaded = true; }">
         @if ($aboutLoaded)
             @include('pages.partials.about-page')
         @else
@@ -12,7 +12,7 @@
         @endif
     </div>
 
-    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('services'); loaded = true; }">
+    <div id="features" x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('services'); loaded = true; }">
         @if ($servicesLoaded)
             @include('pages.partials.services-page')
         @else
@@ -20,7 +20,7 @@
         @endif
     </div>
 
-    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('portfolio'); loaded = true; }">
+    <div id="portfolio" x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('portfolio'); loaded = true; }">
         @if ($portfolioLoaded)
             <section id="portfolio" class="portfolio section">
                 <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
@@ -36,7 +36,7 @@
         @endif
     </div>
 
-    <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('clients'); loaded = true; }">
+    <div id="clients" x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('clients'); loaded = true; }">
         @if ($clientsLoaded)
             @include('pages.partials.clients-page')
         @else
