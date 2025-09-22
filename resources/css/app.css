@@ -874,12 +874,12 @@ section,
     font-size: 36px;
     font-weight: 700;
     color: #ffffff;
-    text-shadow: 0 0 2px #ffffff, 0 0 4px #ffffff;
+    /* text-shadow: 0 0 2px #ffffff, 0 0 4px #ffffff; */
 }
 
 .hero p {
     color: #ffffff;
-    text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
+    /* text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff; */
 }
 
 @media (max-width: 768px) {

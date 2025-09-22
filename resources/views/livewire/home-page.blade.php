@@ -1,6 +1,8 @@
 <div>
-    @include('pages.partials.hero-section')
-    
+    <div wire:ignore>
+        @include('pages.partials.hero-section')
+    </div>
+
     <div x-data="{ loaded: false }" x-intersect:enter="if (!loaded) { $wire.loadSection('about'); loaded = true; }">
         @if ($aboutLoaded)
             @include('pages.partials.about-page')

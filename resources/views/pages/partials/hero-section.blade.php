@@ -1,75 +1,70 @@
-<section id="hero" class="hero section dark-background">
+<section id="hero" class="hero section">
 
-    <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-interval="5000">
         @php
             $isHomePage = request()->is('/');
         @endphp
-        <div class="carousel-item active">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-4.png') }}" alt="">
-            <div style="text-align: justify;" class="container col-lg-8">
-                <h2 style="text-align: center;">Integritas dan Kualitas adalah Prioritas Kami</h2>
-                <br>
-                <br>
-                <br>
-                <div style="text-align: center;">
+            <div class="carousel-item active">
+                <img src="{{ asset('assets/img/hero-carousel/hero-carousel-4.png') }}" alt="">
+                <div style="text-align: justify;" class="container col-lg-8">
+                    <h2 style="text-align: center;">Integritas dan Kualitas adalah Prioritas Kami</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <div style="text-align: center;">
 
-                    <a href="{{ $isHomePage ? '#about' : url('/#about') }}" class="btn-get-started">Read More</a>
+                        <a href="{{ $isHomePage ? '#about' : url('/#about') }}" class="btn-get-started">Read More</a>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-            </a>
-        </div>
-        <div class="carousel-item">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-.jpg') }}" alt="">
-            <div style="text-align: justify;" class="container col-lg-8">
-                <h2 style="text-align: center;">Solusi Terpadu untuk Bisnis Anda</h2>
-                <p style="text-align: center;">Bergerak di Berbagai Bidang, Terutama Transportasi & Logistik yang andal, Produksi Apparel
-                    berkualitas, dan Merchandise kustom untuk brand Anda, Serta Sub Bidang dan Layanan Lainnya.</p>
+            <div class="carousel-item">
+                <img src="{{ asset('assets/img/hero-carousel/hero-carousel-.jpg') }}" alt="">
+                <div style="text-align: justify;" class="container col-lg-8">
+                    <h2 style="text-align: center;">Solusi Terpadu untuk Bisnis Anda</h2>
+                    <p style="text-align: center;">Bergerak di Berbagai Bidang, Terutama Transportasi & Logistik yang
+                        andal, Produksi Apparel
+                        berkualitas, dan Merchandise kustom untuk brand Anda, Serta Sub Bidang dan Layanan Lainnya.</p>
 
-                <p style="text-align: center;">Kami tidak hanya menyediakan layanan, tetapi juga menawarkan solusi bernilai tambah mulai dari
-                    perencanaan hingga eksekusi proyek, dengan fokus pada harga, waktu pelaksanaan, dan kualitas hasil
-                    demi kepuasan pelanggan.</p>
-                <div style="text-align: center;">
+                    <p style="text-align: center;">Kami tidak hanya menyediakan layanan, tetapi juga menawarkan solusi
+                        bernilai tambah mulai dari
+                        perencanaan hingga eksekusi proyek, dengan fokus pada harga, waktu pelaksanaan, dan kualitas
+                        hasil
+                        demi kepuasan pelanggan.</p>
+                    <div style="text-align: center;">
 
-                    <a href="{{ $isHomePage ? '#about' : url('/#about') }}" class="btn-get-started">Read More</a>
+                        <a href="{{ $isHomePage ? '#about' : url('/#about') }}" class="btn-get-started">Read More</a>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-            </a>
-        </div>
-        <div class="carousel-item">
-            <img src="{{ asset('assets/img/hero-carousel/hero-carousel-5.png') }}" alt="">
-            <div style="text-align: justify;" class="container col-lg-8">
-                <h2 style="text-align: center;">TENTANG PERUSAHAAN KAMI</h2>
-                <p style="text-align: center;">PT. Merallin Sukses Abadi adalah perusahaan yang didirikan pada 2023 dengan pengalaman operasional sejak 2020, kami hadir dengan semangat tinggi untuk memberikan layanan yang tidak hanya memenuhi kebutuhan pelanggan tetapi juga menawarkan solusi bernilai tambah.</p>
+            <div class="carousel-item">
+                <img src="{{ asset('assets/img/hero-carousel/hero-carousel-4.jpg') }}" alt="">
+                <div style="text-align: justify;" class="container col-lg-8">
+                    <h2 style="text-align: center;">TENTANG PERUSAHAAN KAMI</h2>
+                    <p style="text-align: center;">PT. Merallin Sukses Abadi adalah perusahaan yang didirikan pada 2023
+                        dengan pengalaman operasional sejak 2020, kami hadir dengan semangat tinggi untuk memberikan
+                        layanan yang tidak hanya memenuhi kebutuhan pelanggan tetapi juga menawarkan solusi bernilai
+                        tambah.</p>
 
-                <p style="text-align: center;">Berlokasi di Kelapa Gading, Jakarta Utara, kami hadir dengan komitmen tinggi untuk memberikan layanan
-                    terbaik yang turut berkontribusi dalam pertumbuhan ekonomi daerah dan nasional.</p>
+                    <p style="text-align: center;">Berlokasi di Kelapa Gading, Jakarta Utara, kami hadir dengan komitmen
+                        tinggi untuk memberikan layanan
+                        terbaik yang turut berkontribusi dalam pertumbuhan ekonomi daerah dan nasional.</p>
 
-                <div style="text-align: center;">
+                    <div style="text-align: center;">
 
-                    <a href="{{ $isHomePage ? '#about' : url('/#about') }}" class="btn-get-started">Read More</a>
+                        <a href="{{ $isHomePage ? '#about' : url('/#about') }}" class="btn-get-started">Read More</a>
+                    </div>
+
                 </div>
 
-            </div>
-            <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-            </a>
-
-            <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-            </a>
-
-
         </div>
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
         <ol class="carousel-indicators"></ol>
+    </div>
 
 </section>

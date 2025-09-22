@@ -61,6 +61,19 @@ import 'waypoints/lib/noframework.waypoints.js';
     });
 
     /**
+     * Hero Carousel Controller
+    */
+    // window.addEventListener('load', () => {
+    //     const heroCarousel = document.querySelector('#hero-carousel');
+    //     if (heroCarousel) {
+    //         new bootstrap.Carousel(heroCarousel, {
+    //             interval: 5000,
+    //             ride: 'carousel'
+    //         });
+    //     }
+    // });
+
+    /**
      * Preloader
      */
     const preloader = document.querySelector('#preloader');
