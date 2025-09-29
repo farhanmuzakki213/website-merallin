@@ -21,7 +21,7 @@
                 <img src="{{ asset('assets/img/hero-carousel/hero-carousel-.jpg') }}" alt="">
                 <div style="text-align: justify;" class="container col-lg-8">
                     <h2 style="text-align: center;">Solusi Terpadu untuk Bisnis Anda</h2>
-                    <p style="text-align: center;">Bergerak di Berbagai Bidang, Terutama Transportasi & Logistik yang
+                    <p style="text-align: center;">Bergerak di Berbagai Bidang, Terutama Transportasi & Ekspedisi Logistik yang
                         andal, Produksi Apparel
                         berkualitas, dan Merchandise kustom untuk brand Anda, Serta Sub Bidang dan Layanan Lainnya.</p>
 
