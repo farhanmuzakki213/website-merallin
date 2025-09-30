@@ -1,4 +1,4 @@
-<section id="features" class="features section">
+<section class="features section">
 
     <div class="container section-title" data-aos="fade-up">
         <h2>Layanan Kami</h2>
@@ -13,8 +13,14 @@
                     [
                         'icon' => 'bi-truck',
                         'color' => '#11dbcf;',
-                        'title' => 'Transportasi & Logistik (Translog)',
-                        'slug' => 'translog',
+                        'title' => 'Ekspedisi Logistik',
+                        'slug' => 'logistik',
+                    ],
+                    [
+                        'icon' => 'bi-car-front',
+                        'color' => '#11dbcf;',
+                        'title' => 'Transportasi',
+                        'slug' => 'transportasi',
                     ],
                     [
                         'icon' => 'bi-box-seam',

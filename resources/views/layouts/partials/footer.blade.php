@@ -40,7 +40,8 @@
                     <li><a href="{{ route('service.detail', ['slug' => 'merchandise']) }}">Merchandise Custom</a></li>
                     <li><a href="{{ route('service.detail', ['slug' => 'epoxy']) }}">Epoxy & Lantai Coating</a></li>
                     <li><a href="{{ route('service.detail', ['slug' => 'interior']) }}">Desain Interior</a></li>
-                    <li><a href="{{ route('service.detail', ['slug' => 'translog']) }}">Transportasi & Logistik (Translog)</a></li>
+                    <li><a href="{{ route('service.detail', ['slug' => 'transportasi']) }}">Transportasi</a></li>
+                    <li><a href="{{ route('service.detail', ['slug' => 'logistik']) }}">Ekspedisi Logistik</a></li>
                     <li><a href="{{ route('service.detail', ['slug' => 'tour']) }}">Tour & Gathering Organizer</a></li>
                     <li><a href="{{ route('service.detail', ['slug' => 'labor-supply']) }}">Labor Supply</a></li>
                     <li><a href="{{ route('service.detail', ['slug' => 'catering']) }}">Catering</a></li>

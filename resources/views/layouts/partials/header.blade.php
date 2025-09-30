@@ -13,17 +13,18 @@
                 @endphp
                 <li><a href="{{ route('home') }}" class="{{ $isHomePage ? 'active' : '' }}">Home</a></li>
 
-                <li class="dropdown"><a href="{{ $isHomePage ? '#about' : url('/#about') }}"><span>About</span> <i
+                <li class="dropdown"><a href="#" @click.prevent="navigateTo('about')"><span>About</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="{{ $isHomePage ? '#about' : url('/#about') }}">About</a></li>
+                        <li><a href="#" @click.prevent="navigateTo('about')">About</a></li>
                         <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
                     </ul>
                 </li>
 
-                <li><a href="{{ $isHomePage ? '#features' : url('/#features') }}">Services</a></li>
-                <li><a href="{{ $isHomePage ? '#portfolio' : url('/#portfolio') }}">Portfolio</a></li>
-                <li><a href="{{ $isHomePage ? '#clients' : url('/#clients') }}">Clients</a></li>
+                <li><a href="#features" @click.prevent="navigateTo('features')">Services</a></li>
+                <li><a href="#portfolio" @click.prevent="navigateTo('portfolio')">Portfolio</a></li>
+                <li><a href="#clients" @click.prevent="navigateTo('clients')">Clients</a></li>
+
                 <li><a href="{{ route('contact') }}">Contact</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

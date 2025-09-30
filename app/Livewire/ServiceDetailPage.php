@@ -84,20 +84,35 @@ class ServiceDetailPage extends Component
                     ]
                 ]
             ],
-            
-            'translog' => [
-                'title' => 'Transportasi & Logistik',
-                'image' => 'assets/img/translog.jpg',
-                'description' => 'Kami menyediakan layanan transportasi dan logistik yang fleksibel untuk semua kebutuhan Anda. Dengan armada lengkap—mulai dari Family Car, Premium Car, hingga Box Truck dan Tour Bus—kami melayani sewa harian, mingguan, bulanan, bahkan tahunan. Layanan kami juga mencakup kebutuhan khusus seperti ekspatriat dan proyek logistik berskala besar. Apapun kebutuhan Anda, kami memiliki solusi transportasi yang tepat.',
-                'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang Service Transportasi & Logistik. Mohon informasinya, terima kasih!',
+            'transportasi' => [
+                'title' => 'Transportasi',
+                'image' => 'assets/img/translog.png',
+                'description' => 'Kami menyediakan layanan sewa transportasi yang fleksibel untuk semua kebutuhan Anda. Dengan armada lengkap—mulai dari Family Car, Premium Car, hingga Tour Bus—kami melayani sewa harian, mingguan, bulanan, bahkan tahunan untuk berbagai keperluan seperti perjalanan dinas, wisata, atau kebutuhan korporat lainnya.',
+                'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang layanan sewa Transportasi. Mohon informasinya, terima kasih!',
                 'sub_sections' => [
-                    'title' => 'Transportasi & Logistik',
+                    'title' => 'Jasa Sewa & Rental Transportasi',
                     'subtitle' => 'Mengapa Memilih Merallin Translog And Rental Service?',
                     'items' => [
                         ['image' => 'assets/img/translog/translog1.png', 'title' => 'KENDARAAN PREMIUM & AC NYAMAN', 'points' => ['Semua unit kami dilengkapi sistem pendingin udara (AC) berkualitas.']],
                         ['image' => 'assets/img/translog/translog2.png', 'title' => 'RESPON CEPAT 24 JAM', 'points' => ['Tim kami siap merespons panggilan dan pesan Anda kapan saja.']],
                         ['image' => 'assets/img/translog/translog3.png', 'title' => 'LAYANAN ANTAR JEMPUT', 'points' => ['Tak perlu repot, kami siap mengantarkan kendaraan langsung ke lokasi Anda.']],
                         ['image' => 'assets/img/translog/translog4.png', 'title' => 'OPSI SOPIR TAMBAHAN', 'points' => ['Anda dapat memilih layanan dengan atau tanpa sopir sesuai kebutuhan.']],
+                    ]
+                ]
+            ],
+            'logistik' => [
+                'title' => 'Ekspedisi Logistik',
+                'image' => 'assets/img/translog.jpg',
+                'description' => 'Kami menawarkan jasa ekspedisi logistik yang andal untuk pengiriman barang ke seluruh wilayah. Dengan armada seperti Box Truck dan sistem manajemen yang efisien, kami memastikan barang Anda tiba di tujuan dengan aman dan tepat waktu. Layanan kami mencakup kebutuhan logistik untuk proyek, distribusi, hingga pengiriman barang skala besar.',
+                'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang jasa Ekspedisi Logistik. Mohon informasinya, terima kasih!',
+                'sub_sections' => [
+                    'title' => 'Jasa Ekspedisi Logistik',
+                    'subtitle' => 'Keunggulan Layanan Logistik Kami',
+                    'items' => [
+                        ['image' => 'assets/img/logistik/do-on-time.png', 'title' => 'PENGIRIMAN TEPAT WAKTU', 'points' => ['Jadwal pengiriman yang terencana untuk memastikan barang sampai sesuai target.']],
+                        ['image' => 'assets/img/logistik/shield.png', 'title' => 'KEAMANAN BARANG TERJAMIN', 'points' => ['Prosedur penanganan barang yang aman untuk meminimalkan risiko kerusakan.']],
+                        ['image' => 'assets/img/logistik/jangkauan-luas.png', 'title' => 'JANGKAUAN LUAS', 'points' => ['Melayani pengiriman ke berbagai destinasi di dalam dan luar kota.']],
+                        ['image' => 'assets/img/logistik/jenis-truck.png', 'title' => 'UKURAN BOX BERVARIASI', 'points' => ['Tersedia berbagai jenis armada seperti Box Truck untuk menyesuaikan volume pengiriman.']],
                     ]
                 ]
             ],
