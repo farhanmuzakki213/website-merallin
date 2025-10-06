@@ -5,7 +5,7 @@
             $isHomePage = request()->is('/');
         @endphp
             <div class="carousel-item active">
-                <img src="{{ asset('assets/img/hero-carousel/hero-carousel-4.png') }}" alt="">
+                <img src="{{ asset('assets/img/hero-carousel/1.jpg') }}" alt="">
                 <div style="text-align: justify;" class="container col-lg-8">
                     <h2 style="text-align: center;">Integritas dan Kualitas adalah Prioritas Kami</h2>
                     <br>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/img/hero-carousel/hero-carousel-.jpg') }}" alt="">
+                <img src="{{ asset('assets/img/hero-carousel/7-r.jpg') }}" alt="">
                 <div style="text-align: justify;" class="container col-lg-8">
                     <h2 style="text-align: center;">Solusi Terpadu untuk Bisnis Anda</h2>
                     <p style="text-align: center;">Bergerak di Berbagai Bidang, Terutama Transportasi & Ekspedisi Logistik yang
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/img/hero-carousel/hero-carousel-4.jpg') }}" alt="">
+                <img src="{{ asset('assets/img/hero-carousel/6.jpg') }}" alt="">
                 <div style="text-align: justify;" class="container col-lg-8">
                     <h2 style="text-align: center;">TENTANG PERUSAHAAN KAMI</h2>
                     <p style="text-align: center;">PT. Merallin Sukses Abadi adalah perusahaan yang didirikan pada 2023

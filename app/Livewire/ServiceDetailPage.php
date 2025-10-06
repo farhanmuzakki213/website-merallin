@@ -102,7 +102,8 @@ class ServiceDetailPage extends Component
             ],
             'logistik' => [
                 'title' => 'Ekspedisi Logistik',
-                'image' => 'assets/img/translog.jpg',
+                // 'image' => 'assets/img/translog.jpg',
+                'image' => 'assets/img/hero-carousel/7.jpg',
                 'description' => 'Kami menawarkan jasa ekspedisi logistik yang andal untuk pengiriman barang ke seluruh wilayah. Dengan armada seperti Box Truck dan sistem manajemen yang efisien, kami memastikan barang Anda tiba di tujuan dengan aman dan tepat waktu. Layanan kami mencakup kebutuhan logistik untuk proyek, distribusi, hingga pengiriman barang skala besar.',
                 'whatsapp_text' => 'Halo! Saya ingin bertanya lebih lanjut tentang jasa Ekspedisi Logistik. Mohon informasinya, terima kasih!',
                 'sub_sections' => [
