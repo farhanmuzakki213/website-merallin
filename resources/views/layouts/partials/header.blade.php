@@ -3,7 +3,7 @@
 
         <a href="{{ url('/') }}" class="logo d-flex align-items-center me-auto">
             <img src="{{ asset('assets/img/logo.png') }}" alt="">
-            <h1 class="sitename"><span style="color: #114B79">Merallin</span> Sukses Abadi</h1>
+            <h1 class="sitename"><span style="color: #114B79">Merallin</span> Group</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">

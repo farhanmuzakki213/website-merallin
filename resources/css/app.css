@@ -240,6 +240,54 @@ h6 {
     }
 }
 
+/* LOGO */
+
+.group-logos {
+    background-color: #f8f9fa;
+    /* Light grey background */
+    padding: 40px 0;
+}
+
+.group-logos .container {
+    text-align: center;
+}
+
+.group-logos .logos-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.group-logos .logos-wrapper img {
+    height: 30%;
+    max-height: 280px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.group-logos .logos-wrapper img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .group-logos .logos-wrapper {
+        gap: 30px;
+    }
+
+    .group-logos .logos-wrapper img {
+        height: 40%;
+        max-height: 140px;
+    }
+}
+
+@media (max-width: 576px) {
+    .group-logos .logos-wrapper img {
+        height: 45%;
+        max-height: 120px;
+    }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/

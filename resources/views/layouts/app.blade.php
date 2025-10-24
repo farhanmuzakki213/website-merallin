@@ -41,6 +41,14 @@
     @include('layouts.partials.header')
 
     <main class="main">
+        <section class="group-logos">
+            <div class="container" data-aos="fade-up">
+                <div class="logos-wrapper">
+                    <img src="{{ asset('assets/img/merallin-logo.svg') }}" alt="Merallin Logo">
+                    <img src="{{ asset('assets/img/gjb-logo.svg') }}" alt="GJB Logo">
+                </div>
+            </div>
+        </section>
         {{ $slot }}
     </main>
 
