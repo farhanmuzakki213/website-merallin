@@ -8,10 +8,7 @@
 
         <div class="row g-0 clients-wrap">
 
-            @for ($i = 1; $i <= 29; $i++)
-                @if ($i == 24)
-                    @continue
-                @endif
+            @for ($i = 1; $i <= 32; $i++)
                 <div class="col-xl-3 col-md-4 client-logo">
                     <img src="{{ asset('assets/img/clients/client-' . $i . '.png') }}" class="img-fluid" alt="">
                 </div>
