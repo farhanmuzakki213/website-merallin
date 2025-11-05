@@ -57,12 +57,16 @@ class PortfolioSection extends Component
         return [
             ['category' => 'baju', 'image' => 'masonry-portfolio-1-min.jpg', 'title' => 'Baju Safety'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-2-min.jpg', 'title' => 'Jersey'],
+            ['category' => 'baju', 'image' => 'masonry-portfolio-33-min.jpg', 'title' => 'Jersey'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-3-min.jpg', 'title' => 'T-Shirt'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-4-min.jpg', 'title' => 'T-Shirt'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-5-min.jpg', 'title' => 'T-Shirt'],
             ['category' => 'produk', 'image' => 'masonry-portfolio-6-min.jpg', 'title' => 'Mug'],
+            ['category' => 'produk', 'image' => 'masonry-portfolio-31-min.jpg', 'title' => 'Payung'],
+            ['category' => 'produk', 'image' => 'masonry-portfolio-30-min.jpg', 'title' => 'Gantungan Tag'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-7-min.jpg', 'title' => 'Cyclewear'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-8-min.jpg', 'title' => 'Sportwear'],
+            ['category' => 'produk', 'image' => 'masonry-portfolio-29-min.jpg', 'title' => 'Custom Kotak'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-9-min.jpg', 'title' => 'Seragam Kantor'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-10-min.jpg', 'title' => 'Polo Safety'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-11-min.jpg', 'title' => 'Polo Sportwear'],
@@ -83,10 +87,6 @@ class PortfolioSection extends Component
             ['category' => 'baju', 'image' => 'masonry-portfolio-26-min.jpg', 'title' => 'Seragam Safety'],
             ['category' => 'baju', 'image' => 'masonry-portfolio-27-min.jpg', 'title' => 'T-Shirt'],
             ['category' => 'translog', 'image' => 'masonry-portfolio-28-min.jpg', 'title' => 'Ekspedisi Logistik'],
-            ['category' => 'translog', 'image' => 'masonry-portfolio-29-min.jpg', 'title' => 'Ekspedisi Logistik'],
-            ['category' => 'translog', 'image' => 'masonry-portfolio-30-min.jpg', 'title' => 'Ekspedisi Logistik'],
-            ['category' => 'translog', 'image' => 'masonry-portfolio-32-min.jpg', 'title' => 'Ekspedisi Logistik'],
-            ['category' => 'translog', 'image' => 'masonry-portfolio-31-min.jpg', 'title' => 'Ekspedisi Logistik'],
         ];
     }
 }
